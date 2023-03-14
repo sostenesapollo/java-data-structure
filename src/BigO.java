@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class BigO {
 
     public static void printItems(int n) {
@@ -39,4 +41,30 @@ public class BigO {
             }
         }
     }
+
+    public static void arrayList() {
+        // Big O measures Worse case
+        // Reindexing
+        // O(1) <= Looking for a value by index don't require iterations array[index]
+        // O(n) <= Looking for a item by its value requires iterations
+        var array = new ArrayList<Number>();
+        array.add(1);
+        array.add(12);
+        array.add(56);
+        array.remove(0);
+        System.out.println(array);
+
+        // O(nˆ2) Loop within a Loop
+        // O(n) Proportional =>  Straight line
+        // O(log n) Divide and Conquer
+        // O(1) Constant time
+    }
+
+    // Horrible to Excellent
+    // O(n!)
+    // O(2ˆn)
+    // O(nˆ2)
+    // O(n log n)
+    // O(n)
+    // O)log n), O(1)
 }
