@@ -6,6 +6,9 @@ public class Main {
 //        BigO.printItemsWithTwoArgs(4,10);
 //        BigO.printItemsWithTwoArgsMultiply(1000, 3)
 
-        BigO.arrayList();
+        //BigO.arrayList()
+        //Pointer.Example();
+        //Pointer.HashMapPointer();
+        new DirtBike().main();
     }
 }
