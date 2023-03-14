@@ -1,7 +1,5 @@
 public class BigO {
-    public  static void main() {
-        printItems(14);
-    }
+
     public static void printItems(int n) {
         // O(nˆ2 + n) => O(nˆ2) => Drop dominant
         for (int i = 0; i < n; i++) {
